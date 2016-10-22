@@ -10,4 +10,4 @@ ENV GOPATH /go:/go/src/app/vendor
 
 WORKDIR /go/src/app
 
-ENV GLIDE_HOME /go/src/app/vendor
+#ENV GLIDE_HOME /go/src/app/vendor
