@@ -6,6 +6,7 @@ MAINTAINER Billy Ray Teves <billyteves@gmail.com>
 
 RUN curl https://glide.sh/get | sh
 
+ENV GOPATH /go;/go/src/app/vendor
 
 WORKDIR /go/src/app
 
